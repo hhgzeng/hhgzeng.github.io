@@ -1,10 +1,106 @@
 /* 自定义 Codeforces 图标 */
 .fab.fa-codeforces:before {
-  content: ""; /* 清除原有内容 */
+  content: "";
   background: url('/img/codeforces.png') no-repeat center center;
   background-size: contain;
   width: 1em;
   height: 1em;
   display: inline-block;
   vertical-align: -0.125em;
+} 
+
+/* 优化搜索框样式 */
+#local-search .search-dialog {
+  position: fixed;
+  top: 3.5rem;
+  left: 50%;
+  transform: translate(-50%, 0) !important;
+  width: 60%;
+  max-width: 700px;
+  z-index: 99999;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  margin: 0 auto;
+  transition: none !important;
+}
+
+/* 添加调试样式，检查是否有多个搜索框 */
+#local-search .search-dialog:not(:first-of-type) {
+  display: none !important;
+}
+
+#local-search .search-box {
+  position: relative;
+  margin: 0.5rem auto;
+  width: 85%;
+  max-width: 600px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  transform: none !important;
+}
+
+#local-search input {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  border: 2px solid #e3e8f7;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #363636;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  left: 0;
+  transform: none !important;
+}
+
+#local-search input:focus {
+  outline: none;
+  border-color: #49b1f5;
+  box-shadow: 0 0 5px rgba(73, 177, 245, 0.3);
+}
+
+#local-search .search-result-list {
+  max-height: 70vh;
+  padding: 1rem 2rem;
+  overflow-y: auto;
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* 搜索结果样式优化 */
+.search-result-title {
+  color: #49b1f5;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.search-result {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.search-result:hover {
+  background-color: rgba(73, 177, 245, 0.1);
+}
+
+/* 暗色模式适配 */
+[data-theme='dark'] #local-search .search-dialog {
+  background: rgba(30, 30, 30, 0.95);
+}
+
+[data-theme='dark'] #local-search input {
+  background: rgba(30, 30, 30, 0.8);
+  border-color: #2c2c2c;
+  color: #f1f1f1;
+}
+
+[data-theme='dark'] .search-result:hover {
+  background-color: rgba(73, 177, 245, 0.2);
 } 
