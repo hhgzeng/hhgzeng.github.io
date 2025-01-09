@@ -1,0 +1,10 @@
+/* 自定义 Codeforces 图标 */
+.fab.fa-codeforces:before {
+  content: ""; /* 清除原有内容 */
+  background: url('/img/codeforces.png') no-repeat center center;
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.125em;
+} 
