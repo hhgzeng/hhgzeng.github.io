@@ -1,3 +1,3 @@
-var posts=["2025/01/18/GDUT/EssayLayout/","2025/01/18/Skill/GitHub/","2025/01/18/AI/Prompt/","2025/01/18/GDUT/DatabaseNote/","2025/01/18/Skill/LaTex/","2025/01/18/GDUT/MySQL/","2025/01/18/Skill/WebDeploy/","2025/01/18/Skill/READ/","2025/01/18/Skill/PythonEnv/","2025/01/18/Skill/PythonDevelopment/","2025/01/20/Skill/JavaDevelopment/"];function toRandomPost(){
+var posts=["2025/01/18/GDUT/EssayLayout/","2025/01/18/Skill/GitHub/","2025/01/18/AI/Prompt/","2025/01/18/GDUT/DatabaseNote/","2025/01/18/Skill/LaTex/","2025/01/18/GDUT/MySQL/","2025/01/18/Skill/WebDeploy/","2025/01/18/Skill/READ/","2025/01/18/Skill/PythonEnv/","2025/01/18/Skill/PythonDevelopment/","2025/01/20/Life/MacBook Pro(M3 Pro)分享/","2025/01/20/Skill/JavaDevelopment/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
