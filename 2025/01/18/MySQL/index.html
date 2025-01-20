@@ -210,7 +210,119 @@
         }
       }
       detectApple()
-    })(window)</script><!-- hexo injector head_end start --><script defer src="/sw-dom.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Avatar/zongjie.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+    })(window)</script><!-- hexo injector head_end start --><script defer src="/sw-dom.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Avatar/zongjie.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
   endLoading: () => {
     document.getElementById('loading-box').classList.add("loaded");
   },
@@ -251,115 +363,78 @@ if (true) {
 </script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/fcircle/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> 朋友圈</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/WeChat.jpg" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/WeChat.jpg"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/Alipay.jpg" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/Alipay.jpg"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 1.05rem;">AI<sup>1</sup></a><a href="/tags/GitHub/" style="font-size: 1.05rem;">GitHub<sup>1</sup></a><a href="/tags/Markdown/" style="font-size: 1.05rem;">Markdown<sup>1</sup></a><a href="/tags/Prompt/" style="font-size: 1.05rem;">Prompt<sup>1</sup></a><a href="/tags/Python/" style="font-size: 1.05rem;">Python<sup>2</sup></a><a href="/tags/README/" style="font-size: 1.05rem;">README<sup>1</sup></a><a href="/tags/Web/" style="font-size: 1.05rem;">Web<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 1.05rem;">数据库<sup>2</sup></a><a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 1.05rem;">论文<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/01/"><span class="card-archive-list-date">一月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">10</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%A4%A7%E5%AD%A6/" itemprop="url">大学</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>数据库</span></a></span></div></div><h1 class="post-title" itemprop="name headline">MySQL基本知识</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2025-01-17T16:00:00.000Z" title="发表于 2025-01-18 00:00:00">2025-01-18</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2025-01-17T16:00:00.000Z" title="更新于 2025-01-18 00:00:00">2025-01-18</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">1.3k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator"></span><span class="post-meta-pv-cv" id="" data-flag-title="MySQL基本知识"><i class="anzhiyufont anzhiyu-icon-fw-eye post-meta-icon"></i><span class="post-meta-label" title="阅读量">阅读量:</span><span id="busuanzi_value_page_pv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为衡阳"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>衡阳</span><span class="post-meta-separator"></span><span class="post-meta-commentcount"><i class="anzhiyufont anzhiyu-icon-comments post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2025/01/18/MySQL/#post-comment" tabindex="-1"><span id="twikoo-count"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></a></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Background/background.webp"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://hhgzeng.github.io/2025/01/18/MySQL/"><header><a class="post-meta-categories" href="/categories/%E5%A4%A7%E5%AD%A6/" itemprop="url">大学</a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" tabindex="-1" itemprop="url">数据库</a><h1 id="CrawlerTitle" itemprop="name headline">MySQL基本知识</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">靖</span><time itemprop="dateCreated datePublished" datetime="2025-01-17T16:00:00.000Z" title="发表于 2025-01-18 00:00:00">2025-01-18</time><time itemprop="dateCreated datePublished" datetime="2025-01-17T16:00:00.000Z" title="更新于 2025-01-18 00:00:00">2025-01-18</time></header><h1 id="MySQL基础操作"><a href="#MySQL基础操作" class="headerlink" title="MySQL基础操作"></a>MySQL基础操作</h1><p>MySQL 是一款开源的关系型数据库管理系统，广泛应用于各类应用程序和网站中。本篇文章将介绍 MySQL 的一些基础操作，帮助大家快速掌握 MySQL 的基本使用方法。</p>
 <h2 id="1-数据库的创建与删除"><a href="#1-数据库的创建与删除" class="headerlink" title="1. 数据库的创建与删除"></a>1. 数据库的创建与删除</h2><h3 id="1-1-创建数据库"><a href="#1-1-创建数据库" class="headerlink" title="1.1 创建数据库"></a>1.1 创建数据库</h3><p>在 MySQL 中，可以使用 <code>CREATE DATABASE</code> 语句来创建数据库。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> DATABASE 数据库名;</span><br></pre></td></tr></table></figure>
-
 <p>例如，创建一个名为 <code>blog</code> 的数据库：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> DATABASE blog;</span><br></pre></td></tr></table></figure>
-
 <h3 id="1-2-查看数据库"><a href="#1-2-查看数据库" class="headerlink" title="1.2 查看数据库"></a>1.2 查看数据库</h3><p>要查看当前 MySQL 中的所有数据库，可以使用 <code>SHOW DATABASES</code> 语句。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> DATABASES;</span><br></pre></td></tr></table></figure>
-
 <h3 id="1-3-选择数据库"><a href="#1-3-选择数据库" class="headerlink" title="1.3 选择数据库"></a>1.3 选择数据库</h3><p>在执行 SQL 操作之前，需要先选择要操作的数据库。可以使用 <code>USE</code> 语句。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">USE 数据库名;</span><br></pre></td></tr></table></figure>
-
 <p>例如，选择 <code>blog</code> 数据库：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">USE blog;</span><br></pre></td></tr></table></figure>
-
 <h3 id="1-4-删除数据库"><a href="#1-4-删除数据库" class="headerlink" title="1.4 删除数据库"></a>1.4 删除数据库</h3><p>如果不再需要某个数据库，可以使用 <code>DROP DATABASE</code> 语句删除它。请谨慎使用此命令，因为它会删除整个数据库及其所有数据。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> DATABASE 数据库名;</span><br></pre></td></tr></table></figure>
-
 <p>例如，删除 <code>blog</code> 数据库：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> DATABASE blog;</span><br></pre></td></tr></table></figure>
-
 <h2 id="2-表的创建与删除"><a href="#2-表的创建与删除" class="headerlink" title="2. 表的创建与删除"></a>2. 表的创建与删除</h2><h3 id="2-1-创建表"><a href="#2-1-创建表" class="headerlink" title="2.1 创建表"></a>2.1 创建表</h3><p>要创建一张新表，需要指定表名和字段信息。表的创建使用 <code>CREATE TABLE</code> 语句。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE TABLE</span> 表名 (</span><br><span class="line">  字段<span class="number">1</span> 数据类型 [约束],</span><br><span class="line">  字段<span class="number">2</span> 数据类型 [约束],</span><br><span class="line">  ...</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
-
 <p>例如，创建一张名为 <code>posts</code> 的表，包含 <code>id</code>、<code>title</code> 和 <code>content</code> 字段：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE TABLE</span> posts (</span><br><span class="line">  id <span class="type">INT</span> AUTO_INCREMENT <span class="keyword">PRIMARY KEY</span>,</span><br><span class="line">  title <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT NULL</span>,</span><br><span class="line">  content TEXT</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
-
 <h3 id="2-2-查看表结构"><a href="#2-2-查看表结构" class="headerlink" title="2.2 查看表结构"></a>2.2 查看表结构</h3><p>要查看表的结构（列的名称、数据类型等），可以使用 <code>DESCRIBE</code> 语句。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DESCRIBE</span> 表名;</span><br></pre></td></tr></table></figure>
-
 <p>例如，查看 <code>posts</code> 表的结构：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DESCRIBE</span> posts;</span><br></pre></td></tr></table></figure>
-
 <h3 id="2-3-删除表"><a href="#2-3-删除表" class="headerlink" title="2.3 删除表"></a>2.3 删除表</h3><p>如果不再需要某个表，可以使用 <code>DROP TABLE</code> 语句删除它。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> 表名;</span><br></pre></td></tr></table></figure>
-
 <p>例如，删除 <code>posts</code> 表：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> posts;</span><br></pre></td></tr></table></figure>
-
 <h2 id="3-数据操作"><a href="#3-数据操作" class="headerlink" title="3. 数据操作"></a>3. 数据操作</h2><h3 id="3-1-插入数据"><a href="#3-1-插入数据" class="headerlink" title="3.1 插入数据"></a>3.1 插入数据</h3><p>要向表中插入数据，可以使用 <code>INSERT INTO</code> 语句。假设有一个名为 <code>posts</code> 的表，包含 <code>title</code> 和 <code>content</code> 字段。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT INTO</span> 表名 (字段<span class="number">1</span>, 字段<span class="number">2</span>, ...) <span class="keyword">VALUES</span> (值<span class="number">1</span>, 值<span class="number">2</span>, ...);</span><br></pre></td></tr></table></figure>
-
 <p>例如，向 <code>posts</code> 表插入一条数据：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT INTO</span> posts (title, content) <span class="keyword">VALUES</span> (<span class="string">&#x27;My First Post&#x27;</span>, <span class="string">&#x27;This is the content of my first post.&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT INTO</span> posts (title, content) <span class="keyword">VALUES</span> (<span class="string">'My First Post'</span>, <span class="string">'This is the content of my first post.'</span>);</span><br></pre></td></tr></table></figure>
 <h3 id="3-2-查询数据"><a href="#3-2-查询数据" class="headerlink" title="3.2 查询数据"></a>3.2 查询数据</h3><p>要查询表中的数据，可以使用 <code>SELECT</code> 语句。可以选择查询所有列，或者指定要查询的列。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> 表名;  <span class="comment">-- 查询所有列</span></span><br></pre></td></tr></table></figure>
-
 <p>例如，查询 <code>posts</code> 表中的所有数据：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts;</span><br></pre></td></tr></table></figure>
-
 <p>如果只想查询某些列：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> title, content <span class="keyword">FROM</span> posts;</span><br></pre></td></tr></table></figure>
-
 <h3 id="3-3-更新数据"><a href="#3-3-更新数据" class="headerlink" title="3.3 更新数据"></a>3.3 更新数据</h3><p>要更新表中的数据，可以使用 <code>UPDATE</code> 语句。指定要更新的表、更新的字段和新的值。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> 表名 <span class="keyword">SET</span> 字段<span class="number">1</span> <span class="operator">=</span> 新值<span class="number">1</span>, 字段<span class="number">2</span> <span class="operator">=</span> 新值<span class="number">2</span> <span class="keyword">WHERE</span> 条件;</span><br></pre></td></tr></table></figure>
-
 <p>例如，将 <code>posts</code> 表中 <code>id</code> 为 1 的文章的标题修改为 “Updated Title”：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> posts <span class="keyword">SET</span> title <span class="operator">=</span> <span class="string">&#x27;Updated Title&#x27;</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
-
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> posts <span class="keyword">SET</span> title <span class="operator">=</span> <span class="string">'Updated Title'</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
 <h3 id="3-4-删除数据"><a href="#3-4-删除数据" class="headerlink" title="3.4 删除数据"></a>3.4 删除数据</h3><p>要删除表中的数据，可以使用 <code>DELETE</code> 语句。注意使用 <code>WHERE</code> 子句来指定删除条件，否则会删除表中的所有数据。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> 表名 <span class="keyword">WHERE</span> 条件;</span><br></pre></td></tr></table></figure>
-
 <p>例如，删除 <code>posts</code> 表中 <code>id</code> 为 1 的文章：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> posts <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
-
 <h2 id="4-常用查询条件"><a href="#4-常用查询条件" class="headerlink" title="4. 常用查询条件"></a>4. 常用查询条件</h2><h3 id="4-1-WHERE-子句"><a href="#4-1-WHERE-子句" class="headerlink" title="4.1 WHERE 子句"></a>4.1 WHERE 子句</h3><p><code>WHERE</code> 子句用于筛选符合条件的记录。例如，查询标题包含 “Post” 的所有文章：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts <span class="keyword">WHERE</span> title <span class="keyword">LIKE</span> <span class="string">&#x27;%Post%&#x27;</span>;</span><br></pre></td></tr></table></figure>
-
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts <span class="keyword">WHERE</span> title <span class="keyword">LIKE</span> <span class="string">'%Post%'</span>;</span><br></pre></td></tr></table></figure>
 <h3 id="4-2-AND、OR-条件"><a href="#4-2-AND、OR-条件" class="headerlink" title="4.2 AND、OR 条件"></a>4.2 AND、OR 条件</h3><p>可以使用 <code>AND</code> 和 <code>OR</code> 来组合多个条件。</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts <span class="keyword">WHERE</span> title <span class="operator">=</span> <span class="string">&#x27;My First Post&#x27;</span> <span class="keyword">AND</span> content <span class="keyword">LIKE</span> <span class="string">&#x27;%content%&#x27;</span>;</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts <span class="keyword">WHERE</span> title <span class="operator">=</span> <span class="string">&#x27;My First Post&#x27;</span> <span class="keyword">OR</span> title <span class="operator">=</span> <span class="string">&#x27;Updated Title&#x27;</span>;</span><br></pre></td></tr></table></figure>
-
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts <span class="keyword">WHERE</span> title <span class="operator">=</span> <span class="string">'My First Post'</span> <span class="keyword">AND</span> content <span class="keyword">LIKE</span> <span class="string">'%content%'</span>;</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts <span class="keyword">WHERE</span> title <span class="operator">=</span> <span class="string">'My First Post'</span> <span class="keyword">OR</span> title <span class="operator">=</span> <span class="string">'Updated Title'</span>;</span><br></pre></td></tr></table></figure>
 <h3 id="4-3-排序"><a href="#4-3-排序" class="headerlink" title="4.3 排序"></a>4.3 排序</h3><p>使用 <code>ORDER BY</code> 子句来排序结果集，默认按升序排序。使用 <code>DESC</code> 来进行降序排序。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts <span class="keyword">ORDER</span> <span class="keyword">BY</span> id <span class="keyword">DESC</span>;</span><br></pre></td></tr></table></figure>
-
 <h3 id="4-4-分页查询"><a href="#4-4-分页查询" class="headerlink" title="4.4 分页查询"></a>4.4 分页查询</h3><p>分页查询通常使用 <code>LIMIT</code> 和 <code>OFFSET</code> 来实现。例如，查询 <code>posts</code> 表中的前 10 条记录：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts LIMIT <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
-
 <p>查询跳过前 10 条，取接下来的 10 条记录：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> posts LIMIT <span class="number">10</span> <span class="keyword">OFFSET</span> <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
-
 <h2 id="5-常用函数"><a href="#5-常用函数" class="headerlink" title="5. 常用函数"></a>5. 常用函数</h2><h3 id="5-1-COUNT-函数"><a href="#5-1-COUNT-函数" class="headerlink" title="5.1 COUNT 函数"></a>5.1 COUNT 函数</h3><p><code>COUNT</code> 函数用于计算某列的记录数。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">FROM</span> posts;</span><br></pre></td></tr></table></figure>
-
 <h3 id="5-2-AVG-函数"><a href="#5-2-AVG-函数" class="headerlink" title="5.2 AVG 函数"></a>5.2 AVG 函数</h3><p><code>AVG</code> 函数用于计算某列的平均值。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">AVG</span>(price) <span class="keyword">FROM</span> products;</span><br></pre></td></tr></table></figure>
-
 <h3 id="5-3-SUM-函数"><a href="#5-3-SUM-函数" class="headerlink" title="5.3 SUM 函数"></a>5.3 SUM 函数</h3><p><code>SUM</code> 函数用于计算某列的总和。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">SUM</span>(price) <span class="keyword">FROM</span> products;</span><br></pre></td></tr></table></figure>
-
 <h2 id="6-索引操作"><a href="#6-索引操作" class="headerlink" title="6. 索引操作"></a>6. 索引操作</h2><h3 id="6-1-创建索引"><a href="#6-1-创建索引" class="headerlink" title="6.1 创建索引"></a>6.1 创建索引</h3><p>创建索引可以提高查询性能。使用 <code>CREATE INDEX</code> 语句创建索引。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> INDEX 索引名 <span class="keyword">ON</span> 表名 (字段名);</span><br></pre></td></tr></table></figure>
-
 <p>例如，为 <code>posts</code> 表的 <code>title</code> 字段创建索引：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> INDEX idx_title <span class="keyword">ON</span> posts (title);</span><br></pre></td></tr></table></figure>
-
 <h3 id="6-2-删除索引"><a href="#6-2-删除索引" class="headerlink" title="6.2 删除索引"></a>6.2 删除索引</h3><p>删除索引使用 <code>DROP INDEX</code> 语句。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> INDEX 索引名 <span class="keyword">ON</span> 表名;</span><br></pre></td></tr></table></figure>
-
 <p>例如，删除 <code>posts</code> 表的 <code>idx_title</code> 索引：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> INDEX idx_title <span class="keyword">ON</span> posts;</span><br></pre></td></tr></table></figure>
-
 <h2 id="7-事务操作"><a href="#7-事务操作" class="headerlink" title="7. 事务操作"></a>7. 事务操作</h2><h3 id="7-1-开始事务"><a href="#7-1-开始事务" class="headerlink" title="7.1 开始事务"></a>7.1 开始事务</h3><p>使用 <code>START TRANSACTION</code> 开始一个事务。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">START</span> TRANSACTION;</span><br></pre></td></tr></table></figure>
-
 <h3 id="7-2-提交事务"><a href="#7-2-提交事务" class="headerlink" title="7.2 提交事务"></a>7.2 提交事务</h3><p>使用 <code>COMMIT</code> 提交事务，保存所有操作。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">COMMIT</span>;</span><br></pre></td></tr></table></figure>
-
 <h3 id="7-3-回滚事务"><a href="#7-3-回滚事务" class="headerlink" title="7.3 回滚事务"></a>7.3 回滚事务</h3><p>使用 <code>ROLLBACK</code> 回滚事务，撤销所有操作。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ROLLBACK</span>;</span><br></pre></td></tr></table></figure>
-
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文介绍了 MySQL 的基础操作，包括数据库的创建与删除、表的创建与删除、数据的操作、查询条件的使用、常用函数以及索引和事务的基本操作。这些操作是日常使用 MySQL 时必备的基础知识，掌握它们将为你在数据库管理和开发中提供很大的帮助。</p>
 </article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/zongjie.jpg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/zongjie.jpg" title="头像" alt="头像"></a><div class="post-copyright__author_name">靖</div><div class="post-copyright__author_desc">保持热爱，奔赴山海</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://hhgzeng.github.io/2025/01/18/MySQL/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://hhgzeng.github.io/2025/01/18/MySQL/')">MySQL基本知识</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/WeChat.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/WeChat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/Alipay.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Payment/Alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div><div class="reward-link mode"><a class="reward-link-button" href="/wechat/"><i class="anzhiyufont anzhiyu-icon-plant-fill"></i>运营模式与责任</a></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://hhgzeng.github.io/2025/01/18/MySQL/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=MySQL基本知识&amp;url=https://hhgzeng.github.io/2025/01/18/MySQL/&amp;pic=https://raw.githubusercontent.com/hhgzeng/Photos/refs/heads/main/Background/background.webp" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
   var currentPageUrl = window.location.href;
