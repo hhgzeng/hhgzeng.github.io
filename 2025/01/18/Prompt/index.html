@@ -26,7 +26,7 @@
   diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
   LA51: undefined,
   greetingBox: undefined,
-  twikooEnvId: 'mongodb+srv://jing:<W-T6WkxUHPuAqYY>@blog.ex8ce.mongodb.net/?retryWrites=true&w=majority&appName=Blog',
+  twikooEnvId: 'https://twikoo-silk-seven.vercel.app',
   commentBarrageConfig:{"enable":true,"maxBarrage":1,"barrageTime":8000,"accessToken":"","mailMd5":"453E9A87B627D380C4118A726FE000F8"},
   music_page_default: "nav_music",
   root: '/',
@@ -435,7 +435,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'mongodb+srv://jing:<W-T6WkxUHPuAqYY>@blog.ex8ce.mongodb.net/?retryWrites=true&w=majority&appName=Blog',
+      envId: 'https://twikoo-silk-seven.vercel.app',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -452,7 +452,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'mongodb+srv://jing:<W-T6WkxUHPuAqYY>@blog.ex8ce.mongodb.net/?retryWrites=true&w=majority&appName=Blog',
+      envId: 'https://twikoo-silk-seven.vercel.app',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -494,7 +494,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'mongodb+srv://jing:<W-T6WkxUHPuAqYY>@blog.ex8ce.mongodb.net/?retryWrites=true&w=majority&appName=Blog',
+        envId: 'https://twikoo-silk-seven.vercel.app',
         region: '',
         pageSize: 6,
         includeReply: true
