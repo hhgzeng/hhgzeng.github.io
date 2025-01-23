@@ -90,27 +90,6 @@
   </entry>
   
   <entry>
-    <title>论文排版</title>
-    <link href="https://jingz.us.kg/2025/01/18/GDUT/EssayLayout/"/>
-    <id>https://jingz.us.kg/2025/01/18/GDUT/EssayLayout/</id>
-    <published>2025-01-17T16:00:00.000Z</published>
-    <updated>2025-01-17T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="论文排版格式">论文排版格式</h1><table><thead><tr><th style="text-align: center;">内容</th><th style="text-align: center;">字号</th><th style="text-align: center;">首行缩进</th><th style="text-align: center;">行距</th><th style="text-align: center;">段前段后</th><th style="text-align: center;">对齐方式</th></tr></thead><tbody><tr><td style="text-align: center;">论文名称</td><td style="text-align: center;">二号/22 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">24/12 磅</td><td style="text-align: center;">居中</td></tr><tr><td style="text-align: center;">目录标题</td><td style="text-align: center;">二号/22 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">24/0 磅</td><td style="text-align: center;">居中</td></tr><tr><td style="text-align: center;">一级目录</td><td style="text-align: center;">小四/12 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">二级目录</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">三级目录</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">一级标题</td><td style="text-align: center;">三号/16 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">12/6 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">二级标题</td><td style="text-align: center;">四号/14 加粗</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">6/6 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">三级标题</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">正文内容</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">两端对齐</td></tr><tr><td style="text-align: center;">参考文献标题</td><td style="text-align: center;">三号/16 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">12/6 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">中文文献</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">两端对齐</td></tr><tr><td style="text-align: center;">英文文献</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">两端对齐</td></tr></tbody></table><p><strong>字体</strong>：中文字体——宋体（Simsun），英文字体——Times NewRoman。</p><h1 id="参考文献格式">参考文献格式</h1><table><thead><tr><th style="text-align: center;">内容</th><th style="text-align: center;">字号</th><th style="text-align: center;">行距</th><th style="text-align: center;">段前段后</th><th style="text-align: center;">首行缩进</th><th style="text-align: center;">对齐方式</th></tr></thead><tbody><tr><td style="text-align: center;">中文文献</td><td style="text-align: center;">小四常规</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0 磅</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">两端对齐</td></tr><tr><td style="text-align: center;">英文文献</td><td style="text-align: center;">小四常规</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0 磅</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">两端对齐</td></tr></tbody></table><p><strong>文献类型标识</strong>：书籍：[M]，期刊文章：[J]，学位论文：[D]，会议论文：[C]。</p><p>示例：</p><ul><li>[1] 王明远. 数据挖掘原理与应用[M]. 北京: 清华大学出版社, 2015.</li><li>[2] Smith J. Machine learning: A practical approach[J]. AI Journal,2020, 45(3): 56 - 78.</li></ul>]]></content>
-    
-    
-    <summary type="html">论文排版</summary>
-    
-    
-    
-    <category term="大学" scheme="https://jingz.us.kg/categories/%E5%A4%A7%E5%AD%A6/"/>
-    
-    
-    <category term="论文" scheme="https://jingz.us.kg/tags/%E8%AE%BA%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
     <title>数据库复习笔记</title>
     <link href="https://jingz.us.kg/2025/01/18/GDUT/DatabaseNote/"/>
     <id>https://jingz.us.kg/2025/01/18/GDUT/DatabaseNote/</id>
@@ -128,6 +107,27 @@
     
     
     <category term="数据库" scheme="https://jingz.us.kg/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论文排版</title>
+    <link href="https://jingz.us.kg/2025/01/18/GDUT/EssayLayout/"/>
+    <id>https://jingz.us.kg/2025/01/18/GDUT/EssayLayout/</id>
+    <published>2025-01-17T16:00:00.000Z</published>
+    <updated>2025-01-17T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="论文排版格式">论文排版格式</h1><table><thead><tr><th style="text-align: center;">内容</th><th style="text-align: center;">字号</th><th style="text-align: center;">首行缩进</th><th style="text-align: center;">行距</th><th style="text-align: center;">段前段后</th><th style="text-align: center;">对齐方式</th></tr></thead><tbody><tr><td style="text-align: center;">论文名称</td><td style="text-align: center;">二号/22 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">24/12 磅</td><td style="text-align: center;">居中</td></tr><tr><td style="text-align: center;">目录标题</td><td style="text-align: center;">二号/22 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">24/0 磅</td><td style="text-align: center;">居中</td></tr><tr><td style="text-align: center;">一级目录</td><td style="text-align: center;">小四/12 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">二级目录</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">三级目录</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">一级标题</td><td style="text-align: center;">三号/16 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">12/6 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">二级标题</td><td style="text-align: center;">四号/14 加粗</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">6/6 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">三级标题</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">正文内容</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">两端对齐</td></tr><tr><td style="text-align: center;">参考文献标题</td><td style="text-align: center;">三号/16 加粗</td><td style="text-align: center;">无</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">12/6 磅</td><td style="text-align: center;">左对齐</td></tr><tr><td style="text-align: center;">中文文献</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">两端对齐</td></tr><tr><td style="text-align: center;">英文文献</td><td style="text-align: center;">小四/12 常规</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0/0 磅</td><td style="text-align: center;">两端对齐</td></tr></tbody></table><p><strong>字体</strong>：中文字体——宋体（Simsun），英文字体——Times NewRoman。</p><h1 id="参考文献格式">参考文献格式</h1><table><thead><tr><th style="text-align: center;">内容</th><th style="text-align: center;">字号</th><th style="text-align: center;">行距</th><th style="text-align: center;">段前段后</th><th style="text-align: center;">首行缩进</th><th style="text-align: center;">对齐方式</th></tr></thead><tbody><tr><td style="text-align: center;">中文文献</td><td style="text-align: center;">小四常规</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0 磅</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">两端对齐</td></tr><tr><td style="text-align: center;">英文文献</td><td style="text-align: center;">小四常规</td><td style="text-align: center;">1.5 倍</td><td style="text-align: center;">0 磅</td><td style="text-align: center;">2 字符</td><td style="text-align: center;">两端对齐</td></tr></tbody></table><p><strong>文献类型标识</strong>：书籍：[M]，期刊文章：[J]，学位论文：[D]，会议论文：[C]。</p><p>示例：</p><ul><li>[1] 王明远. 数据挖掘原理与应用[M]. 北京: 清华大学出版社, 2015.</li><li>[2] Smith J. Machine learning: A practical approach[J]. AI Journal,2020, 45(3): 56 - 78.</li></ul>]]></content>
+    
+    
+    <summary type="html">论文排版</summary>
+    
+    
+    
+    <category term="大学" scheme="https://jingz.us.kg/categories/%E5%A4%A7%E5%AD%A6/"/>
+    
+    
+    <category term="论文" scheme="https://jingz.us.kg/tags/%E8%AE%BA%E6%96%87/"/>
     
   </entry>
   
